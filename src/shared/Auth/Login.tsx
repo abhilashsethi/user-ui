@@ -77,6 +77,7 @@ const Login = ({ setActiveState }: { setActiveState: (e: string) => void }) => {
 						/>
 					)}
 				</div>
+				<div></div>
 				{errors.password && (
 					<span className="text-red-500 block mt-1">
 						{errors.password.message}
